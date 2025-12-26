@@ -6,7 +6,7 @@ const app = express();
 app.use(
   "/",
   createProxyMiddleware({
-    target: "http://geo.bervis.xyz:19900",
+    target: "http://eu-de1.power-cloud.pro:1901/",
     changeOrigin: true,
     ws: true
   })
